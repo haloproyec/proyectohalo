@@ -1,0 +1,1017 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #0e0b16;
+ 
+} 
+
+header{
+    height: 100px;
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e7dfdd;
+}
+
+.logo img{
+    width: 180px;
+}
+
+.menu nav ul{
+    display: flex;
+
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color:#e7dfdd;
+    transition: opacity 300ms;
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+}
+
+.btn__header-register,
+.btn__register-cover{
+    padding: 14px 50px;
+    border: none;
+    background: #306AE5;
+    color: #e7dfdd;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+
+.btn__header-register:hover,
+.btn__register-cover:hover{
+    background: #30A0E5;
+    color: #000;
+}
+
+#icon_menu{
+    display: none;
+}
+
+.imagenmenu{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 100%), url(https://images2.alphacoders.com/949/thumb-1920-949049.png);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+/*PORTADA*/
+
+main{
+    max-width: 1200px;
+    height: calc(100vh + 800px);
+    padding: 40px;
+    margin: auto;
+    color: #e7dfdd;
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.text__information-cover{
+    width: 50%;
+}
+
+.text__information-cover h1{
+    font-size: 50px;
+}
+
+.text__information-cover p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.buttons_cover{
+    display: flex;
+    margin-top: 40px;
+    color: #4717f6;
+}
+
+.btn__readMore-cover{
+    padding: 14px 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 300ms;
+}
+ /*inicio de menu bloques*/
+
+#submenu .container{
+    text-align: center;
+    padding: 150px 0px;
+
+
+ }
+
+#submenu p{
+    display: cover;
+}
+
+#submenu h2{
+    margin-top: 0px;
+}
+
+#submenu .bloque{
+
+}
+
+.bloque1{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+
+    )
+    , url("https://sm.ign.com/ign_es/screenshot/default/analisis-halo-infinite_cjdd.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.bloque2{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+
+    )
+    , url("https://media.gq.com.mx/photos/62d437fc6afa6d0f00056864/3:2/w_2877,h_1918,c_limit/halo%20(1).jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin: 30px;
+    border-radius: 15px;
+
+}
+
+.bloque3{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+
+    )
+    , url("https://media.gq.com.mx/photos/61f99491247e703ee62fca75/16:9/w_2560%2Cc_limit/halo.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+button{
+    font-size: 1.25;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color:#e7dfdd ;
+    background-color:#306AE5 ;
+}
+
+/*termina de menu bloques*/
+
+/*css halo ce*/
+
+.img_juegos_haloce{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(180deg, #0000019c 0%, #0000019c 100%), url(https://www.ecured.cu/images/thumb/8/8d/Halo-combat-evolved-pc-flight-delay.jpg/1200px-Halo-combat-evolved-pc-flight-delay.jpg);
+    background-size: cover;
+    clip-path: clip-path: polygon(0 0, 100% 0, 48% 36%, 46% 36%);
+    z-index: -1;
+}
+.haloceimg{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/x_PUYGy5LfM/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.text__information-cover2{
+    display: flex;
+    justify-content:center;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: center ;
+    width: 100%;
+
+}
+
+.text__information-cover2 h2{
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    width: 50%;
+}
+.haloceimg1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://www.hd-tecnologia.com/imagenes/articulos/2020/01/Las-pruebas-de-Halo-Combate-Evolved-para-PC-comenzar%C3%A1n-este-mes.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/*css halo ce fin*/
+
+/*css halo 2*/
+.img_juegos_halo2{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(180deg, #0000019c 0%, #0000019c 100%), url(https://i.blogs.es/efaab9/halo-2-reto-1-/1366_521.jpeg);
+    background-size: cover;
+    clip-path: clip-path: polygon(0 0, 100% 0, 48% 36%, 46% 36%);
+    z-index: -1;
+}
+.halo2img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/L8tyOFJ55eQ/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.text__information-cover2{
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    width: 50%;
+
+}
+.halo2img1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/5BsQ9Fzv1sM/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.halo2img2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://generacionxbox.com/wp-content/uploads/2014/06/Halo2-anniversary.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.halo2img3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://img.unocero.com/2020/07/halo-infinite-chris-lee-entrevista-2-1-1024x577.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo2img4{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://gamedustria.com/wp-content/uploads/2017/04/Hallo-Wars-2-gameplay.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/*css halo 2 fin*/
+
+
+
+/*css halo 3 */
+.img_juegos_halo3{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(180deg, #0000019c 0%, #0000019c 100%), url(https://as01.epimg.net/meristation/imagenes/2020/07/15/header_image/825640671594801131.jpg);
+    background-size: cover;
+    clip-path: clip-path: polygon(0 0, 100% 0, 48% 36%, 46% 36%);
+    z-index: -1;
+}
+.halo3img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://www.gamespot.com/a/uploads/original/gamespot/images/2007/263/reviews/825784-926632_20070921_001.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+ .text__information-cover2{
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    width: 50%;
+}
+.halo3img1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://www.bit-tech.net/media/image/2020/7/ce6867ed-b16f-4b11-978d-e0bd27d181f8.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo3img2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/hYN2gKQgX4M/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo3img3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.pcmag.com/imagery/reviews/06leOma1Z9YihyKkJ6u9dkg-1..v1596824159.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo3img4{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://static.wikia.nocookie.net/halo/images/4/40/Final_Grunt.jpg/revision/latest?cb=20090408012730);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/*css halo 3 fin*/
+
+
+
+/*css halo 4 */
+.img_juegos_halo4{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(180deg, #0000019c 0%, #0000019c 100%), url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/halo-4/8/83/Halo_4_art_top.jpg);
+    background-size: cover;
+    clip-path: clip-path: polygon(0 0, 100% 0, 48% 36%, 46% 36%);
+    z-index: -1;
+}
+.halo4img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/halo-4/3/32/E32012_Halo4_Campaign6.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+ .text__information-cover2{
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    width: 50%;
+}
+.halo4img1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://gamingbolt.com/wp-content/uploads/2012/10/Halo-4-Ragnarock-10.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo4img2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://sm.ign.com/t/ign_es/video/h/halo-4-1080p60fps-gameplay-in-halo-the-master-chie/halo-4-1080p60fps-gameplay-in-halo-the-master-chie_2bfu.1200.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo4img3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://cdn.pocket-lint.com/r/s/970x/assets/images/152956-games-news-halo-4-image1-xdko4ezpeu.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/*css halo 4 fin*/
+
+
+/*css halo 5 */
+.img_juegos_halo5{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(180deg, #0000019c 0%, #0000019c 100%), url(https://sm.ign.com/t/ign_latam/blogroll/3/343-indust/343-industries-responds-to-complaints-over-halo-5_4scj.1280.jpg);
+    background-size: cover;
+    clip-path: clip-path: polygon(0 0, 100% 0, 48% 36%, 46% 36%);
+    z-index: -1;
+}
+.halo5img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/NI7p8ue7Mu0/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+ .text__information-cover2{
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    width: 50%;
+}
+.halo51img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/MaZ1-kV4INE/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo52img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(http://www.galisteocantero.com/wp-content/uploads/2016/08/gameplay-halo-5-guardians-1.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo53img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://www.gamingdebugged.com/wp-content/uploads/2015/12/halo-5-guardians-gameplay-1000.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.halo54img{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://www.trustedreviews.com/wp-content/uploads/sites/54/2014/02/Halo-5-Guardians-3.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+/*css halo 5 fin*/
+
+/*css halo infinity*/
+.img_juegos_haloin{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(180deg, #0000019c 0%, #0000019c 100%), url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ZYD6TYX3JFDBNIRXKHZ6SEBQFU.jpg);
+    background-size: cover;
+    clip-path: clip-path: polygon(0 0, 100% 0, 48% 36%, 46% 36%);
+    z-index: -1;
+}
+.haloinimg{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://i.ytimg.com/vi/UPFU_fQshZ8/maxresdefault.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+ .text__information-cover2{
+    display: flex;
+    justify-content: left;
+    margin-top: 90px;
+     font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    width: 50%;
+}
+.haloinimg1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://codigoesports.com/wp-content/uploads/2021/08/halo-infinite-cuanto-pide-pc.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.haloinimg2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+
+    )
+
+    ,url(https://www.nme.com/wp-content/uploads/2020/07/Halo-Infinite-1-696x442.jpg);
+    background-position: right;
+    background-size: cover;
+    width: 600px;
+    height: 200px;
+    padding: 60px 0px ;
+    margin: 30;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/*css halo infinity fin*/
+
+/*parte de bh inicio*/
+.imagenbh{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 100%), url(https://free4kwallpapers.com/uploads/originals/2015/07/25/halo-the-master-chief-collection-background.jpg);
+    background-size: cover;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    z-index: -1;
+}
+
+.bloque1{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+
+    )
+    , link("https://sm.ign.com/ign_es/screenshot/default/analisis-halo-infinite_cjdd.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+/*parte de bh inicio*/
+
+
+.btn__readMore-cover:hover{
+    background: #E8E8E8;
+}
+
+.media__cover{
+    width: 50%;
+}
+
+.media__cover video{
+    width: 100%;
+    margin-top: -40px;
+}
+
+@media (max-width: 1024px){
+
+    .container__header,
+    main{
+        padding: 20px;
+    }
+
+    #icon_menu{
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .header__register{
+        display: none;
+    }
+
+    .menu{
+        height: 0px;
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        overflow: hidden;
+        z-index: 10;
+        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0.5);
+        transition: all 300ms;
+    }
+
+    .menu nav ul{
+        padding: 20px 0px;
+        flex-direction: column;
+        background: #fff;
+    }
+
+    .menu nav ul li{
+        padding: 10px 40px;
+    }
+
+    .mostrar_menu{ /*CLASE JS*/
+        height: 235px;
+    }
+
+    .text__information-cover h1{
+        font-size: 40px;
+    }
+
+    .text__information-cover p{
+        font-size: 16px;
+    }
+
+    @media (max-width: 920px){
+        .text__information-cover{
+            width: 100%;
+        }
+    
+        .media__cover{
+            display: none;
+        }
+
+}
+
+/*espera*/
+#html-spinner{
+  width:40px;
+  height:40px;
+  border:4px solid #fcd779;
+  border-top:4px solid white;
+  border-radius:50%;
+}
+
+#html-spinner, #svg-spinner{
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1.2s;
+  -webkit-animation-name: rotate;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  
+  -moz-transition-property: -moz-transform;
+  -moz-animation-name: rotate; 
+  -moz-animation-duration: 1.2s; 
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  
+  transition-property: transform;
+  animation-name: rotate; 
+  animation-duration: 1.2s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+/* Rest of page style*/
+body{
+  background:#FABC20;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color:#393D3D;
+}
+
+#container{
+  width:90%;
+  max-width:700px;
+  margin:1em auto;
+  position:relative;
+}
+
+/* spinner positioning */
+
+#html-spinner, #svg-spinner{
+  position:absolute;
+  top:80px;
+  margin-left:-24px;
+}
+
+#html-spinner{
+  left:25%; 
+}
+
+#svg-spinner{
+  left:75%; 
+}
+
+#html-para, #svg-para{
+  position:absolute;
+  top:100px;
+  width:40%;
+  padding:5%;
+  text-align:center;
+}
+
+#svg-para{
+  left:50%;
+}
